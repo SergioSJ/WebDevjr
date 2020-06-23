@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Practica 3.1 figuras básicas</title>
+  </head>
+  <body>
+      <p>Figuras Geométrica</p>
+        <ol>
+          <li>Circulo</li>
+          <svg height="165" width="150">
+            <circle cx="65" cy="65" r="60" fill="blue" stroke="green" stroke-width="4"/>
+          </svg>
+          <li>Rectángulo</li>
+          <svg width="300" height="250">
+            <rect width="200" height="180" fill="yellow" stroke="orange" stroke-width="4"/>
+          </svg>
+          <li>Poligono</li>
+          <svg width="450" height="300">
+            <polygon points="145,15 350,180 210,160" fill="Lime" stroke="pink" stroke-width="2.5"/>
+          </svg>
+          <li>Elipse</li>
+          <svg width="350" height="310">
+            <ellipse cx="215" cy="175" rx="120" ry="135" fill="blue" stroke="yellow" stroke-width="3"/>
+          </svg>
+          <li>Línea</li>
+          <p></p>
+            <svg width="350" height="300">
+              <line x=4.5 y="5" x2="150" y2="210" stroke="magenta" stroke-width="3" />
+          </svg>
+        <li>Poyline</li>
+          <svg width="450" height="220">
+            <polyline points="30,45 50,60 70,80 40,60" fill="none" stroke="black" stroke-widht="3"/>
+          </svg>
+        <li>Mega elipse</li>
+          <p></p>
+          <svg width="500" heigth="150">
+            <ellipse cx="210" cy="50" rx="220" ry="55" style="fill:orange"/>
+            <ellipse cx="210" cy="50" rx="205" ry="35" style="fill: red"/>
+          <svg/>
+        <li>Ejercicio</li>
+          <h1>Primer SVG</h1>
+            <svg width="100" height="100">
+              <circle cx="50" cy="50" r="40" fill="#00bff0" stroke="black" stroke-width="1">
+            </svg>
+        </ol>
+    <p>Etiquetas Complementarias</p>
+    <ol>
+      <li> g  </li>
+      <li> defs </li>
+      <li> title: para agregar titulo </li>
+      <li> desc: para agregar descripcion</li>
+      <li> image: </li>
+      <li> use: para usar xLink:ref </li>
+      <li> path: recibe valores para formar un trazo M= punto de inicio, Z= punto para finalizar trazo </li>
+    </ol>
+    <p>Movimientos dentro de atributo D </p>
+      <ul>
+        <li>M= moveto</li>
+        <li>L= lineto</li>
+        <li>H= Horizontal lineto</li>
+        <li>V= Vertical lineto</li>
+        <li>C= curveto</li>
+        <li>S= smooth curveto</li>
+        <li>Q= quadratic Bezier curve</li>
+        <li>T= smooth quadratic Bezier curve</li>
+        <li>A= elliptical Arc </li>
+        <li>Z= closepath</li>
+      </ul>
+    <p>Ejercicio de codif</p>
+      <h1>Relog SVG</h1>
+        <svg width="200" height="200">
+          <g>
+          <circle cx="100" cy="100" r="100" fill="#eeeeee" stroke="black" stroke-width="1">
+
+          <line stroke="black" stroke-width="1" x1="100" y1="10" x2="100" y2="0">
+          <line stroke="black" stroke-width="1" x1="150" y1="13" x2="145" y2="22">
+          <line stroke="black" stroke-width="1" x1="187" y1="50" x2="178" y2="55">
+          <line stroke="black" stroke-width="1" x1="190" y1="100" x2="200" y2="100">
+          <line stroke="black" stroke-width="1" x1="187" y1="150" x2="178" y2="145">
+          <line stroke="black" stroke-width="1" x1="150" y1="187" x2="145" y2="178">
+          <line stroke="black" stroke-width="1" x1="100" y1="190" x2="100" y2="200">
+          <line stroke="black" stroke-width="1" x1="50" y1="187" x2="55" y2="178">
+          <line stroke="black" stroke-width="1" x1="13" y1="150" x2="22" y2="145">
+          <line stroke="black" stroke-width="1" x1="0" y1="100" x2="10" y2="100">
+          <line stroke="black" stroke-width="1" x1="13" y1="50" x2="22" y2="55">
+          <line stroke="black" stroke-width="1" x1="50" y1="13" x2="55" y2="22">
+          </g>
+          <g>
+            <line x1="100" y1="100" x2="100" y2="45" stroke="blue" stroke-width="3">
+            <line x1="100" y1="180" x2="180" y2="100" stroke="blue" stroke-width="2">
+            <line x1="100" y1="100" x2="48" y2="180" stroke="red" stroke-width="3">
+          </g>
+        </svg>
+  </body>
+</html>

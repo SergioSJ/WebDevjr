@@ -1,0 +1,40 @@
+body{
+  background: lightblue;
+}
+h1 {
+  color: blue;
+  font-family: helvetica;
+}
+p{
+   color: black;
+   font-family: Arial;
+   font-size: 15px;
+}b
+#Equipo{
+  font-family: cursive;
+  color: green;
+  font-size: 15px;
+  margin-left: auto;
+}
+#Equipo2{
+  font-family: cursive;
+  color: blue;
+  font-size: 30px;
+  margin-left: auto;
+}
+#Costo{
+  font-family: cursive;
+  color: blue;
+  font-size: 30px;
+  margin-left: auto;
+}
+#bic{
+  margin-left: 150px;
+  margin-right: auto;
+  color: blue;
+  font-size: 30px;
+}
+.mibic{
+  margin:5px;
+  
+}

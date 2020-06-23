@@ -1,0 +1,27 @@
+body{
+  background-color: orange;
+  color: lightgreen;
+  font-size: 18px;
+}
+#tit{
+  margin-left: 600px;
+  border: 15px;
+  padding: 20px;
+  border-style: ridge;
+  background-color: white;
+  border-width: inherit;
+  width: 150px;
+  height: 130px;
+  border-top: 11px solid black;
+}
+#fin{
+  font-family: Arial;
+  font-size: 20px;
+  color: gray;
+}
+#lado{
+  margin-right: 600px;
+}
+.fot{
+  border-radius: 10px;
+}

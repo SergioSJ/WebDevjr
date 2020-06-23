@@ -1,0 +1,30 @@
+body{
+  background-color: lightblue;
+  color: blue;
+}
+header{
+  font-family: arial;
+  font-size: 18px;
+}
+#top{
+  margin: 12px;
+  background-color: beige;
+}
+#oso{
+  margin-top: 25px;
+}
+#yo{
+  color: blue;
+  font-family: arial;
+}
+.comp{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+h2{
+  color: gray;
+  font-family: sans-serif;
+}
+h3{
+  color: blue;
+}

@@ -1,0 +1,22 @@
+
+ body{
+  background-color: Black;
+  color: white;
+}
+#top{
+  margin: 10px;
+  padding: 8px;
+  border-style: inset;
+  background-color: beige;
+  border-width: 9px;
+  border-right: 11px solid lightblue;
+  border-left:10px solid lightblue;
+  border-radius: 5px;
+  color: grey;
+  height: 90px;
+  width: 320px;
+}
+#back{
+  color: white;
+  font-family: Arial;
+}

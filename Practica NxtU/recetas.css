@@ -1,0 +1,27 @@
+#titulo{
+  padding: 10px,0px;
+}
+body{
+  margin-letf: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: verdana;
+}
+.chef{
+  background-color: yellow;
+}
+.tit{
+  background-color: aliceblue;
+  align-self: center;
+  padding-left: 10px;
+}
+.rece{
+  background-color: yellow;
+}
+#pie{
+  margin-top: 1px;
+  color: black;
+  align-self: center;
+  padding-top: 10px;
+}

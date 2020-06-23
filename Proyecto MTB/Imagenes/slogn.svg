@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer">
+  <title>Layer 1</title>
+  <ellipse cx="363.5" cy="271.5" fill="#3f3f3f" id="svg_1" rx="51" ry="51" stroke="#000000" stroke-width="5"/>
+  <ellipse cx="194.881567" cy="272.137076" fill="#3f3f3f" id="svg_2" rx="50.64995" ry="55.033626" stroke="#000000" stroke-width="5" transform="rotate(92.1611 194.882 272.137)"/>
+  <text fill="#000000" font-family="serif" font-size="14.024" id="svg_8" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.15844 0 0 1.73333 -15.4179 -90.5667)" x="201.524855" xml:space="preserve" y="148.769231">more fun in 2 wheels</text>
+ </g>
+</svg>
